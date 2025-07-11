@@ -1,0 +1,121 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  background: linear-gradient(to bottom right, #bfdbfe, #c4b5fd); /* Tailwind's blue-200 to purple-400 */
+  position: relative;
+}
+
+.login-logo {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 7rem;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .login-logo {
+    left: 5rem;
+  }
+}
+
+.login-box {
+  background-color: #0f172a; /* slate-900 */
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 25rem;
+  color: #c7d2fe;
+  font-size: 0.875rem;
+}
+
+.login-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.login-subtext {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: #cbd5e1; /* slate-300 */
+}
+
+.login-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.625rem 0.625rem;
+  border-radius: 9999px;
+  background-color: #333a5c;
+  margin-bottom: 1rem  ;
+}
+
+.login-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.forgot-password {
+  margin-bottom: 1rem; /* mb-4 */
+  color: #6366f1; /* indigo-500 */
+  cursor: pointer;
+  text-align: right;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.forgot-password:hover {
+  color: #4f46e5; /* darker indigo */
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.625rem 0; /* py-2.5 */
+  border-radius: 9999px;
+  background: linear-gradient(to right, #6366f1, #312e81); /* indigo-500 to indigo-900 */
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+
+/* Text below form for toggle between Login/Sign Up */
+.toggle-text {
+  text-align: center;
+  font-size: 0.75rem; /* text-xs */
+  color: #9ca3af;     /* Tailwind's gray-400 */
+  margin-top: 1rem;   /* mt-4 */
+   /* cursor: pointer; */
+}
+
+/* Clickable toggle link */
+.toggle-link {
+  color: #60a5fa;     /* Tailwind's blue-400 */
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.toggle-link:hover {
+  color: #3b82f6;     /* Tailwind's blue-500 */
+}

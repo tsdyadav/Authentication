@@ -1,0 +1,73 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  background: linear-gradient(to bottom right, #bfdbfe, #c4b5fd); /* Tailwind's blue-200 to purple-400 */
+  position: relative;
+}
+.login-logo {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 7rem;
+  cursor: pointer;
+}
+
+.otp-form {
+  background-color: #0f172a; /* slate-900 */
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  width: 384px; /* Tailwind's w-96 */
+  font-size: 0.875rem; /* Tailwind's text-sm */
+}
+
+.otp-title {
+  color: #e6d5e3;
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.otp-subtitle {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #e6d5e3; /* indigo-300 */
+}
+
+.otp-input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.otp-input {
+  width: 48px; /* w-12 */
+  height: 48px; /* h-12 */
+  background-color: #021150;
+  color: #ffffff;
+  font-size: 1.25rem; /* text-xl */
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.otp-submit-btn {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(to right, #6366f1, #1e3a8a); /* indigo-500 to indigo-900 */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.otp-submit-btn:hover {
+  opacity: 0.95;
+}

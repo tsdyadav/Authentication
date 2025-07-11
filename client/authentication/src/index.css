@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Tailwind directives removed or ensure Tailwind CSS is properly configured in your build process */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  font-family: "Outfit", sans-serif;
+}

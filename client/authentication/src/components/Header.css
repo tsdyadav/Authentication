@@ -1,0 +1,66 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Profile/hero image */
+.header-img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 9999px;
+  margin-bottom: 1.5rem;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive for sm screens */
+@media (min-width: 640px) {
+  .header-title {
+    font-size: 1.875rem;
+  }
+}
+
+.header-hand {
+  width: 2rem;
+  aspect-ratio: 1 / 1;
+}
+
+.header-subtitle {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .header-subtitle {
+    font-size: 3rem;
+  }
+}
+
+.header-description {
+  margin-bottom: 2rem;
+  max-width: 500px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.header-btn {
+  border: 1px solid #6b7280; /* gray-500 */
+  border-radius: 9999px;
+  padding: 0.625rem 2rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.header-btn:hover {
+  background-color: #f3f4f6; /* gray-100 */
+}
